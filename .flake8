@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 120
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    migrations
+
+ignore =
+    # For PEP8 compatibility with Black
+    E203,
+    # Line break before binary operator
+    W503
